@@ -3,6 +3,8 @@ Crud::Application.routes.draw do
   get "category/edit"
   get "category/delete"
   get "category/list"
+
+  root "category#list"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
